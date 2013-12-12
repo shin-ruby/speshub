@@ -1,0 +1,25 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.jumbotron {
+	height: 500px;
+  	background-image:url("./images/bg-home-customers.jpg");
+}
+
+.jumbotron > .container {
+	padding-top: 80px;
+}
+
+.container h1 {
+	color:#FFF;
+}
+
+.container > p {
+	color:#FFF;
+}
+
+.sm-banner {
+	background-image:url("./images/png.png");
+}

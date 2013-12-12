@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="./assets/ico/favicon.png">
+    <title>Flyspaces</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter.css" rel="stylesheet">
+    <link href="datetimepicker.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="./assets/js/html5shiv.js"></script>
+      <script src="./assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html">Flyspaces</a>
+        </div>
+				<div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="./user.html" id="self-photo"><img src="images/shin.jpg" /></a></li>
+            <li><a href="./user.html">Shin</a></li>
+            <li><a href="./zones_detail.html"><span class="glyphicon glyphicon-eye-open"></span>预览</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+		<div class="starter">
+			<div class="row">
+				<div class="col-md-2 starter-left">
+					<ul class="nav nav-pills nav-stacked">
+						<li class="active"><a href="./zones.html"><span class="glyphicon glyphicon-home"></span>基本信息</a></li>
+						<li><a href="./zones_data.html"><span class="glyphicon glyphicon-tag"></span>价格</a></li>
+						<li><a href="./zones_describe.html"><span class="glyphicon glyphicon-file"></span>描述</a></li>
+						<li><a href="./zones_photo.html"><span class="glyphicon glyphicon-picture"></span>照片</a></li>
+						<li><a href="./zones_info.html"><span class="glyphicon glyphicon-list-alt"></span>详细信息</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 starter-center">
+			    <form class="form-horizontal" role="form">
+						<div class="form-group">
+							<label for="inputEmail3" class="col-md-2 control-label">房源类型</label>
+							<div class="col-md-7">
+								<select class="form-control">
+									<option>创业园区</option>
+									<option>商务楼</option>
+									<option>公寓</option>
+									<option>商住两用</option>
+								</select>                    
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="inputEmail3" class="col-md-2 control-label">面向群体</label>
+							<div class="col-md-7">
+								<select class="form-control">
+									<option>设计类</option>
+									<option>程序类</option>
+									<option>商务服务类</option>
+									<option>其他种类</option>
+								</select> 
+							</div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-md-2 control-label">出租类型</label>
+                    <div class="col-md-7">
+                      <label class="checkbox-inline">
+                      <input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                      办公位
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+                      独立隔间
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+                      共用空间
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+                      整租
+                    </label>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-md-2 control-label">入租人数</label>
+                    <div class="col-md-4">
+                     <select class="form-control">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>以上</option>
+                    </select>
+                    </div>
+                  </div>
+                  <div class="form-group">                    
+                     <label for="inputEmail3" class="col-md-2 control-label">城市</label>
+                     <div class="col-md-4">
+                       <input type="email" class="form-control" id="inputEmail3" placeholder="上海">
+                     </div>
+                  </div>
+                 
+                  
+                  <div class="form-group">
+                    <div class="col-md-offset-2 col-md-5">
+                      <button type="submit" class="btn btn-default"><a href="./zones_data.html">继续</a></button>
+                    </div>
+                  </div>
+					</form>
+				</div>
+				<div class="col-md-4 starter-right">
+					<h1>Introductions</h1>
+					<p class="lead"> Introductions, Introductions, Introductions, Introductions, Introductions</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="foot">
+			<div class="container">  
+				<ul class="list-inline">
+					<li>关于</li>
+					<li>合作</li>
+					<li>隐私</li>
+					<li>网站地图</li>
+				</ul>
+			
+				<footer>
+					<p>&copy; 2013 FlySpaces</p>
+				</footer>
+			</div> <!-- /container -->
+    </div><!--end foot -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

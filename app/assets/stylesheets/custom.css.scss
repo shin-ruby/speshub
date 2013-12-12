@@ -1,0 +1,301 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+
+body {
+  padding-top: 50px;
+}
+
+
+/* navbai */
+.navbar-inverse {
+  background-color: #010200;
+  border-color: #000000;
+  height:20px;
+  .navbar-brand {
+    color: #FFFFFF;
+    font-size:24px;
+    font-weight:bold;
+  }
+}
+
+#self-photo {
+  padding-top:12px;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #7F0019;
+}
+
+.navbar-inverse .navbar-nav li a {
+  color: #FFFFFF;
+  &:hover {
+    color: #D6D6D6;
+  }
+}
+
+.navbar-inverse .navbar-nav li .btn-info {
+  margin-top: 8px;
+  background-color: #7F0019;
+  border-color: #7F0019;
+  a {
+    color: #FFFFFF;
+  }
+}
+
+/* end navbai */
+
+/* index jumbotron banner */
+.jumbotron {
+  height: 500px;
+  background-image:url(image_path('sample2.jpg'));
+  margin-bottom: 0px;
+  .container {
+    padding-top: 100px;
+    h2 {
+      color:#FFFFFF;
+      text-shadow: 0 -1px 1px #292929;
+      font-weight:bold;
+    }
+    p {
+      color:#FFFFFF;
+      text-shadow: 0 -1px 0px #292929;
+    }
+  }
+  .container-text {
+    width: 200px;
+    padding: 12px 12px 1px 14px;
+    margin-top: 130px;
+    margin-left: 1100px;
+    background-color :#000000;
+    /* for IE */
+    filter:alpha(opacity=60);
+    /* CSS3 standard */
+    opacity:0.6;
+    p {
+      color:#CCC;
+      font-size:12px;
+    }
+  }
+}
+/* end index jumbotron banner */
+
+/* subject */
+.subject {
+  background-color: #FFF;
+  .container h1 {
+    color: #7F0019;
+    margin-top: 30px;
+    padding-bottom:30px;
+  }
+}
+/* subject */
+
+
+/* second-subject */
+.second-subject {
+  margin-top: 40px;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background-color: #EAEDF1;
+  text-align: center;
+  .glyphicon {
+    font-size: 64px;
+    color: #A2A2A2;
+  }
+  .btn {
+    margin-top: 20px;
+  }
+}
+
+.third-subject {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  img {
+    border-radius:50px;
+  }
+}
+
+.sm-banner {
+  width: 340px;
+  height: 184px;;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  padding-top:50px;
+  color:#FFF;
+  border-style: solid; border-width: 1px;
+  border-color:#999;
+  /* Gecko browsers */
+  -moz-border-radius: 6px;
+  /* Webkit browsers */
+  -webkit-border-radius: 6px;
+}
+
+.subject .container .row .col-md-4 .sm-banner-text {
+  width: 338px;
+  padding: 1px;
+  margin-top: 47px;
+  margin-left: -15px;
+  background-color :#000000;
+  /* for IE */
+  filter:alpha(opacity=60);
+  /* CSS3 standard */
+  opacity:0.6;
+  /* Gecko browsers */
+  -moz-border-radius: 0 0 6px 6px;
+  /* Webkit browsers */
+  -webkit-border-radius: 0 0 6px 6px;
+  p {
+    color:#FFF;
+    margin: 2px 0px 6px 19px;
+  }
+}
+
+.glyphicon-heart {
+  margin-left:170px;
+  color:#F00;
+  font-size: 18px;
+}
+
+.glyphicon-heart-empty {
+  margin-left:170px;
+  color:#FFF;
+  font-size: 18px;
+}
+
+/* zones */
+.zones {
+  background-color: #ECECEC;
+  color: #000;
+  padding-bottom: 14px;
+}
+
+.zones-two {
+  margin-top:60px;
+  height:440px;
+}
+
+.zones-bg {
+  margin-top:100px;
+  right: 0;
+  left: 0;
+  background-color:#CCC;
+}
+.zones-content {
+  margin-top:60px;
+  margin-bottom:60px;
+}
+
+.zone-data {
+  padding: 20px;
+  border-style: solid; border-width: 1px;
+  border-color: #ECECEC;
+  /* Gecko browsers */
+  -moz-border-radius: 6px;
+  /* Webkit browsers */
+  -webkit-border-radius: 6px;
+}
+/* zones */
+
+
+/* detail-- */
+
+
+.zones-detail h3 {
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+
+.bs-tabs {
+  border-width: 1px;
+  border-color: #ddd;
+  border-radius: 4px 4px 0 0;
+  box-shadow: none;
+  padding: 15px 15px 15px;
+  margin: 0 -15px 15px;
+  border-style: solid;
+  /* box-shadow: inset 0 3px 6px rgba(0,0,0,.05); */
+  border-color: #e5e5e5 #eee #eee;
+  .tab-content .tab-pane {
+    margin-top: 16px;
+  }
+}
+
+
+.glyphicon {
+  margin-right: 8px;
+}
+
+.media .pull-left {
+  margin-right: 24px;
+  .row .col-md-1 {
+    padding-left: 30px;
+  }
+  .row .col-md-8 .media-body {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ddd;
+    border-radius: 4px 4px 4px 4px;
+    padding: 12px 4px 12px 20px;
+    background-color: #F7F7F7;
+    margin-left: 20px;
+  }
+}
+
+
+table {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ddd;
+}
+
+.modal-content .form-group {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+/* --detail */
+
+/* zones-list */
+
+.zones-list {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ddd;
+  padding: 6px;
+  background-color: #F9F9F9;
+  .row {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 4px;
+  }
+}
+
+.zones-list-one {
+  width: 362px;
+  height: 262px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ddd;
+}
+.zones-list-info {
+  width: 362px;
+  height: 56px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ddd;
+  background-color: #F9F9F9;
+  padding: 2px;
+}
+
+
+
+/* --zoneslist */
+
+.foot {
+  background-color: #F2F2F2;
+}
+

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="./assets/ico/favicon.png">
+    <title>Flyspaces</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="vm.css" rel="stylesheet">
+    <link href="datetimepicker.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="./assets/js/html5shiv.js"></script>
+      <script src="./assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html">Flyspaces</a>
+        </div><!--/.navbar-header -->
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="./user.html" id="self-photo"><img src="images/shin.jpg" /></a></li>
+            <li><a href="./user.html">Shin</a></li>
+            <li><a href="#">帮助</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div><!--/.container -->
+    </div><!--/.navbar navbar-inverse navbar-fixed-top -->
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="container">
+			<div class="zones-list">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>发现好环境</h2>
+						<hr />
+						<form class="form-inline" role="form">
+						<div class="row listone">
+							<div class="col-md-3">
+								<p>城市：</p>
+							</div>
+							<div class="col-md-9">
+								<div class="form-group">
+									<label>
+										<input type="email" class="form-control" id="exampleInputEmail2" placeholder="上海">
+									</label>
+								</div>
+							</div>
+						</div><!--/.row -->
+						<div class="row listtwo">
+							<div class="col-md-3">
+								<p>氛围：</p>
+							</div>
+							<div class="col-md-9">
+								<div class="radio-inline">
+									<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+										设计
+									</label>
+								</div>
+								<div class="radio-inline">
+									<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+										程序
+									</label>
+								</div>
+								<div class="radio-inline">
+									<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+											销售
+										</label>
+								</div>
+								<div class="radio-inline">
+									<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+											商务服务
+									</label>
+								</div>
+							</div>
+						</div><!--/.row -->
+						<div class="row listone">
+							<div class="col-md-3">
+								<p>房源类型：</p>
+							</div>
+							<div class="col-md-9">
+								<div class="radio-inline">
+									<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+											创业园区
+									</label>
+								</div>
+								<div class="radio-inline">
+									<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+											商务楼
+									</label>
+								</div>
+								<div class="radio-inline">
+									<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+											公寓
+									</label>
+								</div>
+								<div class="radio-inline">
+									<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+											独立屋
+									</label>
+								</div>
+								<div class="radio-inline">
+									<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+											野別
+									</label>
+								</div>
+							</div>
+						</div><!--/.row -->
+						<div class="row listone">
+							<div class="col-md-3">
+								<p>氛围：</p>
+							</div>
+							<div class="col-md-9">
+								<div class="radio-inline">
+									<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+											安静的
+									</label>
+								</div>
+								<div class="radio-inline">
+									<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+											活跃的
+									</label>
+								</div>
+								<div class="radio-inline">
+									<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+											艺术的
+									</label>
+								</div>
+								<div class="radio-inline">
+									<label>
+										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+											严谨的
+									</label>
+								</div>
+							</div>
+						</div><!--/.row -->
+						<div class="row">
+							<div class="col-md-3">
+								<p>空间类型： </p>
+							</div>
+							<div class="col-md-9">
+								<div class="checkbox-inline">
+									<label>
+										<input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+											办公位
+									</label>
+								</div>
+								<div class="checkbox-inline">
+									<label>
+										<input type="checkbox" name="optionsRadios" id="optionsRadios2" value="option2">
+											公共空间
+									</label>
+								</div>
+								<div class="checkbox-inline">
+									<label>
+										<input type="checkbox" name="optionsRadios" id="optionsRadios2" value="option2">
+											独立隔间
+									</label>
+								</div>
+								<div class="checkbox-inline">
+									<label>
+										<input type="checkbox" name="optionsRadios" id="optionsRadios2" value="option2">
+											独立屋
+									</label>
+								</div>
+								<div class="checkbox-inline">
+									<label>
+										<input type="checkbox" name="optionsRadios" id="optionsRadios2" value="option2">
+											*会议室
+									</label>
+								</div>
+							</div>
+						</div><!--/.row -->
+						<div class="row">
+							<div class="col-md-3">
+								<p>价格/月：</p>
+							</div>
+							<div class="col-md-9">           
+								<div class="form-group">
+										<label class="sr-only" for="exampleInputEmail2">价格</label>
+										<select class="form-control">
+											<option>免费</option>
+											<option>200 - 500</option>
+											<option>500 - 1000</option>
+											<option>1000 - 2000</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="exampleInputEmail2">日</label>
+										<select class="form-control">
+											<option>日</option>
+											<option>月</option>
+											<option>年</option>
+										</select>
+									</div>                  
+							</div>
+						</div><!--/.row -->
+						<div class="row">
+							<div class="col-md-9 col-md-offset-3">
+							<button type="submit" class="btn btn-default">筛选更多</button>
+							</div>
+						</div><!--/.row -->
+					</form>        
+					</div><!--/col-md-12 -->
+				</div><!--/row -->
+			</div><!--/zones-list -->
+      <hr />
+      <div class="row">
+        <div class="col-md-4">
+            <div class="zones-list-one">
+              <a href="./zones_detail.html"><img src="./images/zones-list-one.jpg" /></a>
+            </div>
+            <div class="zones-list-info">
+              <div class="row">
+                <div class="col-md-2">
+                   <a class="pull-left" href="#"><img class="media-object" src="./images/shin2.jpg" alt="..."></a>
+                </div>                
+                <div class="col-md-6">
+                  <small>外高桥数据中心</small><br />
+                  <small>上海</small>                
+                </div>
+                <div class="col-md-4">
+                  <p>246/日</p>
+                </div>              
+              </div>  
+            </div>
+        </div><!--/col-md-4 -->
+        <div class="col-md-4">
+            <div class="zones-list-one">
+              <a href="./zones_detail.html"><img src="./images/zones-list-one.jpg" /></a>
+            </div>
+            <div class="zones-list-info">
+              <div class="row">
+                <div class="col-md-2">
+                   <a class="pull-left" href="#"><img class="media-object" src="./images/shin2.jpg" alt="..."></a>
+                </div>                
+                <div class="col-md-6">
+                  <small>外高桥数据中心</small><br />
+                  <small>上海</small>                
+                </div>
+                <div class="col-md-4">
+                  <p>246/日</p>
+                </div>              
+              </div>  
+            </div>
+        </div><!--/col-md-4 -->
+        <div class="col-md-4">
+            <div class="zones-list-one">
+              <a href="./zones_detail.html"><img src="./images/zones-list-one.jpg" /></a>
+            </div>
+            <div class="zones-list-info">
+              <div class="row">
+                <div class="col-md-2">
+                   <a class="pull-left" href="#"><img class="media-object" src="./images/shin2.jpg" alt="..."></a>
+                </div>                
+                <div class="col-md-6">
+                  <small>外高桥数据中心</small><br />
+                  <small>上海</small>                
+                </div>
+                <div class="col-md-4">
+                  <p>246/日</p>
+                </div>              
+              </div>  
+            </div>
+        </div><!--/col-md-4 -->
+      </div><!--/row -->
+	  <br />
+      <div class="row">
+        <div class="col-md-4">
+            <div class="zones-list-one">
+              <a href="./zones_detail.html"><img src="./images/zones-list-one.jpg" /></a>
+            </div>
+            <div class="zones-list-info">
+              <div class="row">
+                <div class="col-md-2">
+                   <a class="pull-left" href="#"><img class="media-object" src="./images/shin2.jpg" alt="..."></a>
+                </div>                
+                <div class="col-md-6">
+                  <small>外高桥数据中心</small><br />
+                  <small>上海</small>                
+                </div>
+                <div class="col-md-4">
+                  <p>246/日</p>
+                </div>              
+              </div>  
+            </div>
+        </div><!--/col-md-4 -->
+        <div class="col-md-4">
+            <div class="zones-list-one">
+              <a href="./zones_detail.html"><img src="./images/zones-list-one.jpg" /></a>
+            </div>
+            <div class="zones-list-info">
+              <div class="row">
+                <div class="col-md-2">
+                   <a class="pull-left" href="#"><img class="media-object" src="./images/shin2.jpg" alt="..."></a>
+                </div>                
+                <div class="col-md-6">
+                  <small>外高桥数据中心</small><br />
+                  <small>上海</small>                
+                </div>
+                <div class="col-md-4">
+                  <p>246/日</p>
+                </div>              
+              </div>  
+            </div>
+        </div><!--/col-md-4 -->
+        <div class="col-md-4">
+            <div class="zones-list-one">
+              <a href="./zones_detail.html"><img src="./images/zones-list-one.jpg" /></a>
+            </div>
+            <div class="zones-list-info">
+              <div class="row">
+                <div class="col-md-2">
+                   <a class="pull-left" href="#"><img class="media-object" src="./images/shin2.jpg" alt="..."></a>
+                </div>                
+                <div class="col-md-6">
+                  <small>外高桥数据中心</small><br />
+                  <small>上海</small>                
+                </div>
+                <div class="col-md-4">
+                  <p>246/日</p>
+                </div>              
+              </div>  
+            </div>
+        </div><!--/col-md-4 -->
+      </div><!--/row -->
+      
+      <br />
+        <button type="button" class="btn btn-primary btn-lg btn-block">更多显示</button>
+    </div><!--container-->          
+    <hr>
+    
+	  <div class="container">
+      <footer>
+        <p>&copy; Company 2013</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+body {
+  min-height: 1200px;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+.userbg {
+	height: 980px;
+	padding: 20px;
+	background-color:#F0F0F0;
+	border-color:#999;
+	/* Gecko browsers */
+	-moz-border-radius: 6px; 
+	/* Webkit browsers */
+	-webkit-border-radius: 6px; 
+}
+
+.user_zones_photo {
+	width: 106px;
+	height: 72px;
+	border-style: solid; border-width: 1px;
+	border-color: #DDDDDD;
+}
+
+.media-heading {
+	margin-bottom: 30px;
+}

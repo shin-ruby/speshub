@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="./assets/ico/favicon.png">
+    <title>SpesHub</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="vm.css" rel="stylesheet">
+    <link href="datetimepicker.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="./assets/js/html5shiv.js"></script>
+      <script src="./assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html">SpesHub</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">注册</a></li>
+            <li><a href="./signin.html">登录</a></li>
+            <li><button type="button" class="btn btn-info"><a href="./zones.html">发布空间</a></button></li>
+          </ul>
+        </div><!-- end .navbar-collapse -->
+      </div><!-- end .container -->
+    </div><!-- end .navbar navbar-inverse navbar-fixed-top -->
+    
+    <!-- index jumbotron banner -->
+    <div class="jumbotron">
+      <div class="container">
+        <h2>拎包入住，与你志同道合的小伙伴们一起启航！</h2>
+        <p>有7020个空间等你</p>  
+		<form class="form-inline" role="form">
+          <div class="form-group">
+            <input type="text" class="form-control input-lg" id="exampleInputEmail2" placeholder="城市">
+          </div>
+          <div class="form-group">
+            <select class="form-control input-lg">
+              <option>设计师的</option>
+              <option>程序员的</option>
+              <option>音乐的</option>
+              <option>商务服务的</option>
+              <option>其他类的</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select class="form-control input-lg">
+              <option>安静的</option>
+              <option>活跃的</option>
+              <option>艺术的</option>
+              <option>严谨的</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select class="form-control input-lg">
+              <option>1人</option>
+              <option>2人</option>
+              <option>团队</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg">搜索</button>
+        </form>
+      </div>
+      <div class="container-text">
+      	<p class="text-center">图片来自上海创智天地</p>
+      </div>
+    </div>
+    <!--end index jumbotron banner -->
+    
+	<div class="subject">
+      <div class="container">
+        <h1 class="text-center">为您提供高效和专注的工作环境</h1>
+        <div class="row">
+          <div style="background-image:url(images/design.jpg)" class="col-md-4 sm-banner">
+            <h2 class="text-center"><a href="./zones_list.html"><strong>设计师空间</strong></a></h2>
+            <div class="sm-banner-text">
+              <p>上海静安创业园区
+                <span class="glyphicon glyphicon-heart"></span>
+              </p>
+            </div>
+          </div>
+          <div style="background-image:url(images/event.jpg)" class="col-md-4 sm-banner">
+            <h2 class="text-center">程序员空间</h2>
+            <div class="sm-banner-text">
+              <p>上海静安创业园区
+                <span class="glyphicon glyphicon-heart-empty"></span>
+              </p>
+            </div>
+          </div>
+          <div style="background-image:url(images/talk.jpg)" class="col-md-4 sm-banner">
+            <h2 class="text-center">其他精品空间</h2>
+            <div class="sm-banner-text">
+              <p>上海静安创业园区
+                <span class="glyphicon glyphicon-heart"></span>
+              </p>
+            </div>
+          </div>      
+        </div>
+          
+        <div class="row">
+          <div style="background-image:url(images/quiet.jpg)" class="col-md-4 sm-banner">
+            <h2 class="text-center">创业者</h2>
+            <div class="sm-banner-text">
+              <p>上海静安创业园区
+                <span class="glyphicon glyphicon-heart-empty"></span>
+              </p>
+            </div>
+          </div>
+          <div style="background-image:url(images/zone.jpg)" class="col-md-4 sm-banner">
+            <h2 class="text-center">出租</h2>
+            <div class="sm-banner-text">
+              <p>上海静安创业园区
+                <span class="glyphicon glyphicon-heart-empty"></span>
+              </p>
+            </div>
+          </div>
+          <div style="background-image:url(images/music.jpg)" class="col-md-4 sm-banner">
+            <h2 class="text-center">活动</h2>
+            <div class="sm-banner-text">
+              <p>上海静安创业园区
+                <span class="glyphicon glyphicon-heart-empty"></span>
+              </p>
+            </div>
+          </div>
+         </div>
+        </div><!--end container -->
+      </div>
+      <!--end subject -->      
+
+
+      <div class="second-subject">   
+        <div class="container">  
+          <div class="row">
+            <div class="col-md-4">
+							<span class="glyphicon glyphicon-send"></span>
+              <h4><strong>创业者</strong></h4>
+              <p>无论你现实是一名创业者，还是自由职业人，甚至是在家中SOHO，创业就应该是这么简单。</p>
+              <p><a class="btn btn-info" href="#">扶持创业者计划 &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+							<span class="glyphicon glyphicon-fire"></span>
+              <h4><strong>出租</strong></h4>
+              <p>将闲置的空间出租，不但可以帮补您的日常开支，甚至还可以为您结识生意伙伴。 </p>
+              <p><a class="btn btn-info" href="#">了解更多出租事宜 &raquo;</a></p>
+           </div>
+            <div class="col-md-4">
+							<span class="glyphicon glyphicon-leaf"></span>
+              <h4><strong>活动</strong></h4>
+              <p>本期主题─《创业公司的前端实践》@linlis 「简书」联合创始人。9月25日晚上7点半，上海.</p>
+              <p><a class="btn btn-info" href="#">View details &raquo;</a></p>
+            </div>
+          </div>
+        </div><!--end container -->
+      </div><!--end second-subject -->    
+			
+			<div class="third-subject">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-3">
+									<img src="./images/shin3.jpg" />
+								</div>
+								<div class="col-md-9">
+									<blockquote>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+										<small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+									</blockquote>
+								</div>
+								</div>
+							</div><!-- col-md-6 -->
+							
+							
+							<div class="col-md-6">
+								<div class="row">
+									<div class="col-md-3">
+										<img src="./images/shin3.jpg" />
+									</div>
+									<div class="col-md-9">
+										<blockquote>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+											<small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+										</blockquote>
+									</div>
+								</div>
+							</div><!-- col-md-6 -->
+							
+						
+						</div>	
+					</div>
+				</div>			
+			</div>    
+
+      <div class="foot">
+      	  <hr >
+          <div class="container">  
+            <ul class="list-inline">
+              <li>关于</li>
+              <li>合作</li>
+              <li>隐私</li>
+              <li>网站地图</li>
+            </ul>
+          
+            <footer>
+              <p>&copy; 2013 FlySpaces</p>
+            </footer>
+          </div> <!-- /container -->
+      </div><!--end foot -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
