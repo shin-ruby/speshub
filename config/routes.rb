@@ -1,5 +1,11 @@
 Speshub::Application.routes.draw do
-  get "static_pages/home"
+  #get "spaces/index"
+  match '/list', to: 'spaces#index'
+
+  #get "spaces/show"
+  match '/show', to: 'spaces#show'
+
+  match '/new', to: 'spaces#new'
 
   #get "static_pages/about"
   match '/about', to: 'static_pages#about'

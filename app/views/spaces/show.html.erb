@@ -1,0 +1,439 @@
+<% provide(:title, 'list') %>
+
+<div class="zones-detail">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+  <h3>GDS昆山数据中心</h3>
+  <p>互联创业-程序，前端</p>
+</div>
+<div class="col-md-8">
+
+<div class="bs-tabs">
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#photo" data-toggle="tab">照片</a></li>
+    <li><a href="#maps" data-toggle="tab">地图</a></li>
+    <li><a href="#date" data-toggle="tab">日历</a></li>
+  </ul>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="tab-pane active" id="photo">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <%= image_tag("zone-photo.jpg") %>
+
+            <div class="carousel-caption">
+              <p>外高桥数据中心</p>
+            </div>
+          </div>
+          <div class="item">
+            <%= image_tag("zone-photo2.jpg") %>
+
+            <div class="carousel-caption">
+              <p>成都数据中心</p>
+            </div>
+          </div>
+          <div class="item">
+            <%= image_tag("zone-photo.jpg") %>
+
+            <div class="carousel-caption">
+              <p>外高桥数据中心</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+    </div>
+    <div class="tab-pane" id="maps">
+      <img src="./images/photo2.jpg" />
+    </div>
+    <div class="tab-pane" id="date">
+      <img src="./images/photo3.jpg" />
+    </div>
+  </div><!-- tab-content -->
+</div><!--bs-example bs-example-tabs -->
+
+<br />
+
+
+<div class="bs-tabs">
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#describe" data-toggle="tab">描述</a></li>
+    <li><a href="#convenience" data-toggle="tab">便利设施</a></li>
+    <li><a href="#rules" data-toggle="tab">守则</a></li>
+  </ul>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="tab-pane active" id="describe">
+      <div class="row">
+        <div class="col-md-8">
+          <p>无论你现实是一名创业者，还是自由职业人，甚至是在家中SOHO，联合创业办公社永远都是你最佳的选择。在这里，每一个创业工匠都能为自己的项目找到新鲜的创业灵感和丰富的自由。不同背景，不同领域的团队和个人间的资源都得到了充分的交流和利用。
+
+            自2010年冬季，联合创业办公社在华山路的蔡元培故居根据地成立后，我们相继为很多创业者提供了交流的场所。然后在一片呼声下，我们在相隔不远的昌平路（靠近延平路口），搭建了第二个创业基地，它就是［延平智阁］。如果说静安寺店走的是小资路线，延平智阁可谓走的是典雅玲珑路线。宽敞的工作区域，挑高的楼顶，搭配上别致的小阁楼，更大更明亮的空间也意味着更多的团队入驻，更频繁的业内活动在这里举办，最终称为一个更成熟的社交居所。</p>
+        </div>
+        <div class="col-md-4">
+          <table class="table table-striped">
+            <tr>
+              <td>房源类型</td>
+              <td>创业园</td>
+            </tr>
+            <tr>
+              <td>面向群体</td>
+              <td>设计类</td>
+            </tr>
+            <tr>
+              <td>入租类型</td>
+              <td>办公位</td>
+            </tr>
+            <tr>
+              <td>空间类型</td>
+              <td>办公楼</td>
+            </tr>
+            <tr>
+              <td>可入驻人数</td>
+              <td>8人</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane" id="convenience">
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="list-unstyled">
+            <li><span class="glyphicon glyphicon-ok"></span>可吸烟</li>
+            <li><span class="glyphicon glyphicon-remove"></span>可携带宠物</li>
+            <li><span class="glyphicon glyphicon-ok"></span>网络</li>
+            <li><span class="glyphicon glyphicon-ok"></span>空调</li>
+            <li><span class="glyphicon glyphicon-remove"></span>暖气</li>
+            <li><span class="glyphicon glyphicon-ok"></span>内有电梯</li>
+            <li><span class="glyphicon glyphicon-remove"></span>无障碍设施</li>
+            <li><span class="glyphicon glyphicon-ok"></span>地下停车位</li>
+            <li><span class="glyphicon glyphicon-ok"></span>咖啡机</li>
+            <li><span class="glyphicon glyphicon-ok"></span>纯净水</li>
+            <li><span class="glyphicon glyphicon-ok"></span>打印机</li>
+            <li><span class="glyphicon glyphicon-ok"></span>扫描机</li>
+            <li><span class="glyphicon glyphicon-ok"></span>附件有地铁</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-unstyled">
+            <li><span class="glyphicon glyphicon-ok"></span>可吸烟</li>
+            <li><span class="glyphicon glyphicon-remove"></span>可携带宠物</li>
+            <li><span class="glyphicon glyphicon-ok"></span>网络</li>
+            <li><span class="glyphicon glyphicon-ok"></span>空调</li>
+            <li><span class="glyphicon glyphicon-remove"></span>暖气</li>
+            <li><span class="glyphicon glyphicon-ok"></span>内有电梯</li>
+            <li><span class="glyphicon glyphicon-remove"></span>无障碍设施</li>
+            <li><span class="glyphicon glyphicon-ok"></span>地下停车位</li>
+            <li><span class="glyphicon glyphicon-ok"></span>咖啡机</li>
+            <li><span class="glyphicon glyphicon-ok"></span>纯净水</li>
+            <li><span class="glyphicon glyphicon-ok"></span>打印机</li>
+            <li><span class="glyphicon glyphicon-ok"></span>扫描机</li>
+            <li><span class="glyphicon glyphicon-ok"></span>附件有地铁</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-unstyled">
+            <li><span class="glyphicon glyphicon-ok"></span>可吸烟</li>
+            <li><span class="glyphicon glyphicon-remove"></span>可携带宠物</li>
+            <li><span class="glyphicon glyphicon-ok"></span>网络</li>
+            <li><span class="glyphicon glyphicon-ok"></span>空调</li>
+            <li><span class="glyphicon glyphicon-remove"></span>暖气</li>
+            <li><span class="glyphicon glyphicon-ok"></span>内有电梯</li>
+            <li><span class="glyphicon glyphicon-remove"></span>无障碍设施</li>
+            <li><span class="glyphicon glyphicon-ok"></span>地下停车位</li>
+            <li><span class="glyphicon glyphicon-ok"></span>咖啡机</li>
+            <li><span class="glyphicon glyphicon-ok"></span>纯净水</li>
+            <li><span class="glyphicon glyphicon-ok"></span>打印机</li>
+            <li><span class="glyphicon glyphicon-ok"></span>扫描机</li>
+            <li><span class="glyphicon glyphicon-ok"></span>附件有地铁</li>
+          </ul>
+        </div>
+      </div> <!-- row -->
+    </div> <!-- tab-pane -->
+    <div class="tab-pane" id="rules">
+      <p>Access to property and apartment only for guests that booked and paid.
+        Important: A copy of the guests passport need to be provided via email (pdf or jpg) before arrival! Strictly no smoking inside the apartment.
+        General rules of good manners:
+        Please keep the common spaces clean, respect late night hours, turn off AC and other electronic devices when leaving the house, especially AC as it otherwise blows the calculated average utility costs that we estimated to fairly price the apartment. Last but not least, please leave the apartment as you found it at your arrival.</p>
+    </div>
+  </div><!-- tab-content -->
+</div><!--bs-example bs-example-tabs -->
+
+<br />
+
+<div class="bs-tabs">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#company" data-toggle="tab">入住公司</a></li>
+    <li><a href="#evaluate" data-toggle="tab">评价</a></li>
+    <li><a href="#attention" data-toggle="tab">关注</a></li>
+    <li><a href="#other" data-toggle="tab">其他空间评价</a></li>
+  </ul>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="tab-pane active" id="company">
+      <img src="./images/brand.jpg" />
+    </div>
+    <div class="tab-pane" id="evaluate">
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="list-unstyled">
+            <li>整体满意度</li>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-unstyled">
+            <li>符合描述
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </li>
+            <li>清洁
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </li>
+            <li>网络速度
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-unstyled">
+            <li>沟通交流
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </li>
+            <li>交通便利
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </li>
+            <li>价值
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </li>
+          </ul>
+        </div>
+      </div> <!-- row -->
+
+      <div class="media">
+        <div class="row">
+          <div class="col-md-1">
+            <a class="pull-left" href="#">
+              <img class="media-object" src="images/shin2.jpg" alt="name">
+              <p class="text-center">shin</p>
+            </a>
+          </div>
+          <div class="col-md-8">
+            <div class="media-body">
+              <p>Access to property and apartment only for guests that booked and paid. Important: A copy of the guests passport need to be provided via email (pdf or jpg) before arrival! Strictly no smoking inside the apartment.</p>
+              <small>2013年11月</small>
+            </div>
+          </div>
+        </div>
+      </div><!-- media -->
+      <div class="media">
+        <div class="row">
+          <div class="col-md-1">
+            <a class="pull-left" href="#">
+              <img class="media-object" src="images/shin2.jpg" alt="name">
+              <p class="text-center">shin</p>
+            </a>
+          </div>
+          <div class="col-md-8">
+            <div class="media-body">
+              <p>Access to property and apartment only for guests that booked and paid. Important: A copy of the guests passport need to be provided via email (pdf or jpg) before arrival! Strictly no smoking inside the apartment.</p>
+              <small>2013年11月</small>
+            </div>
+          </div>
+        </div>
+      </div><!-- media -->
+
+    </div>
+    <div class="tab-pane" id="attention">
+      <div class="media">
+        <div class="row">
+          <div class="col-md-1">
+            <a class="pull-left" href="#">
+              <img class="media-object" src="images/shin2.jpg" alt="name">
+              <p class="text-center">shin</p>
+            </a>
+          </div>
+          <div class="col-md-8">
+            <div class="media-body">
+              <p>Access to property and apartment only for guests that booked and paid. Important: A copy of the guests passport need to be provided via email (pdf or jpg) before arrival! Strictly no smoking inside the apartment.</p>
+              <small>2013年11月</small>
+            </div>
+          </div>
+        </div>
+      </div><!-- media -->
+      <div class="media">
+        <div class="row">
+          <div class="col-md-1">
+            <a class="pull-left" href="#">
+              <img class="media-object" src="images/shin2.jpg" alt="name">
+              <p class="text-center">shin</p>
+            </a>
+          </div>
+          <div class="col-md-8">
+            <div class="media-body">
+              <p>Access to property and apartment only for guests that booked and paid. Important: A copy of the guests passport need to be provided via email (pdf or jpg) before arrival! Strictly no smoking inside the apartment.</p>
+              <small>2013年11月</small>
+            </div>
+          </div>
+        </div>
+      </div><!-- media -->
+    </div>
+    <div class="tab-pane" id="other">
+      <div class="media">
+        <div class="row">
+          <div class="col-md-1">
+            <a class="pull-left" href="#">
+              <img class="media-object" src="images/shin2.jpg" alt="name">
+              <p class="text-center">shin</p>
+            </a>
+          </div>
+          <div class="col-md-8">
+            <div class="media-body">
+              <p>Access to property and apartment only for guests that booked and paid. Important: A copy of the guests passport need to be provided via email (pdf or jpg) before arrival! Strictly no smoking inside the apartment.</p>
+              <p>Access to property and apartment only for guests that booked and paid. Important: A copy of the guests passport need to be provided via email (pdf or jpg) before arrival! Strictly no smoking inside the apartment.</p>
+              <p>Access to property and apartment only for guests that booked and paid. Important: A copy of the guests passport need to be provided via email (pdf or jpg) before arrival! Strictly no smoking inside the apartment.</p>
+              <p>Access to property and apartment only for guests that booked and paid. Important: A copy of the guests passport need to be provided via email (pdf or jpg) before arrival! Strictly no smoking inside the apartment.</p>
+              <small>2013年11月</small>
+            </div>
+          </div>
+        </div>
+      </div><!-- media -->
+    </div>
+  </div> <!-- Tab tab-content -->
+</div>
+</div><!-- col-md-8 -->
+
+<div class="col-md-4">
+  <div class="panel panel-default">
+    <div class="panel-heading">预约看空间</div>
+    <div class="panel-body">
+      <form class="form-horizontal" role="form">
+        <div class="form-group">
+          <label for="inputPassword" class="col-sm-5 control-label">¥768</label>
+          <div class="col-sm-5">
+            <select class="form-control">
+              <option>每日</option>
+              <option>每周</option>
+              <option>每月</option>
+            </select>
+          </div>
+          <div class="col-sm-5">
+            <label for="exampleInputEmail1">预约日期</label>
+            <input type="text" class="col-sm-3 form-control" placeholder="date">
+          </div>
+
+        </div><!-- form-group -->
+
+        <button class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#myModal">
+          预约
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">发送预约信息</h4>
+              </div>
+              <div class="modal-body">
+                <form role="form">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">主题</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="预约查看空间">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">内容</label>
+                    <textarea class="form-control" rows="4"></textarea>
+                  </div>
+
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+      </form>
+    </div><!-- panel-body -->
+  </div><!-- panel-heading -->
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <p>Shin Zhang</p>
+      <p><a href="#">更多房东信息</a></p>
+    </div>
+    <div class="panel-body">
+      <p>回复率 100%</p>
+      <p>回复时间 几小时内</p>
+      <p>日历已更新 3周前</p>
+    </div>
+  </div><!-- panel panel-default -->
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      我的其他空间
+    </div>
+    <div class="panel-body">
+      <p>4个资源</p>
+      <p>List</p>
+    </div>
+  </div><!-- panel panel-default -->
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      类似空间
+    </div>
+    <div class="panel-body">
+      <p>List</p>
+    </div>
+  </div><!-- panel panel-default -->
+</div><!--/.panel panel-default -->
+</div><!--/.col-md-4 -->
+
+</div><!--/.row -->
+</div><!--/.container -->
+</div><!--/.zones-detail -->
+
