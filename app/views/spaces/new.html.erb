@@ -14,23 +14,15 @@
         <div class="form-group">
           <label for="inputEmail3" class="col-md-2 control-label">房源类型</label>
           <div class="col-md-7">
-            <select class="form-control">
-              <option>创业园区</option>
-              <option>商务楼</option>
-              <option>公寓</option>
-              <option>商住两用</option>
-            </select>
+            <%= select_tag :spacesetting, options_for_select(@spacesetting.collect{ |s| [s.content, s.id] }, 1), class: "form-control" %>
+
           </div>
         </div>
         <div class="form-group">
           <label for="inputEmail3" class="col-md-2 control-label">面向群体</label>
           <div class="col-md-7">
-            <select class="form-control">
-              <option>设计类</option>
-              <option>程序类</option>
-              <option>商务服务类</option>
-              <option>其他种类</option>
-            </select>
+            <%= select_tag :user_group, options_for_select(@user_group.collect{ |group| [group.content, group.id]}, 1), class: "form-control" %>
+
           </div>
         </div>
         <div class="form-group">
