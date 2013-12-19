@@ -1,72 +1,274 @@
 <div class="starter">
-  <div class="row">
-    <div class="col-md-2 starter-left">
-      <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="./zones.html"><span class="glyphicon glyphicon-home"></span>基本信息</a></li>
-        <li><a href="./zones_data.html"><span class="glyphicon glyphicon-tag"></span>价格</a></li>
-        <li><a href="./zones_describe.html"><span class="glyphicon glyphicon-file"></span>描述</a></li>
-        <li><a href="./zones_photo.html"><span class="glyphicon glyphicon-picture"></span>照片</a></li>
-        <li><a href="./zones_info.html"><span class="glyphicon glyphicon-list-alt"></span>详细信息</a></li>
-      </ul>
+<div class="row">
+<div class="col-md-2 starter-left">
+  <ul class="nav nav-tabs nav-pills nav-stacked">
+    <li><a href="#home" data-toggle="tab"><span class="glyphicon glyphicon-home"></span>基本信息</a></li>
+    <li><a href="#profile" data-toggle="tab"><span class="glyphicon glyphicon-tag"></span>价格</a></li>
+    <li><a href="#messages" data-toggle="tab"><span class="glyphicon glyphicon-file"></span>描述</a></li>
+    <li><a href="#settings" data-toggle="tab"><span class="glyphicon glyphicon-picture"></span>照片</a></li>
+    <li><a href="#info" data-toggle="tab"><span class="glyphicon glyphicon-list-alt"></span>详细信息</a></li>
+  </ul>
+</div>
+<form class="form-horizontal" role="form">
+<div class="tab-content">
+<div class="tab-pane active" id="home">
+  <div class="col-md-6 starter-center">
+    <div class="form-group">
+      <label for="inputEmail3" class="col-md-2 control-label">房源类型</label>
+      <div class="col-md-7">
+        <%= select_tag :spacesetting, options_for_select(@spacesetting.collect{ |s| [s.content, s.id] }, 1), class: "form-control" %>
+      </div>
     </div>
-    <div class="col-md-6 starter-center">
-      <form class="form-horizontal" role="form">
-        <div class="form-group">
-          <label for="inputEmail3" class="col-md-2 control-label">房源类型</label>
-          <div class="col-md-7">
-            <%= select_tag :spacesetting, options_for_select(@spacesetting.collect{ |s| [s.content, s.id] }, 1), class: "form-control" %>
-
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="inputEmail3" class="col-md-2 control-label">面向群体</label>
-          <div class="col-md-7">
-            <%= select_tag :user_group, options_for_select(@user_group.collect{ |group| [group.content, group.id]}, 1), class: "form-control" %>
-
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="inputEmail3" class="col-md-2 control-label">出租类型</label>
-          <div class="col-md-7">
-            <% @rent_env.each do |rent_env| %>
-              <label class="checkbox-inline">
-                <%= check_box_tag :rent_env, '1', false%>
-                <%= h rent_env.content %>
-              </label>
-            <% end %>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="inputEmail3" class="col-md-2 control-label">入租人数</label>
-          <div class="col-md-4">
-            <select class="form-control">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-              <option>以上</option>
-            </select>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="inputEmail3" class="col-md-2 control-label">城市</label>
-          <div class="col-md-4">
-            <input type="email" class="form-control" id="inputEmail3" placeholder="上海">
-          </div>
-        </div>
-
-
-        <div class="form-group">
-          <div class="col-md-offset-2 col-md-5">
-            <button type="submit" class="btn btn-default"><a href="./zones_data.html">继续</a></button>
-          </div>
-        </div>
-      </form>
+    <div class="form-group">
+      <label for="inputEmail3" class="col-md-2 control-label">面向群体</label>
+      <div class="col-md-7">
+        <%= select_tag :user_group, options_for_select(@user_group.collect{ |group| [group.content, group.id]}, 1), class: "form-control" %>
+      </div>
     </div>
-    <div class="col-md-4 starter-right">
-      <h1>Introductions</h1>
-      <p class="lead"> Introductions, Introductions, Introductions, Introductions, Introductions</p>
+    <div class="form-group">
+      <label for="inputEmail3" class="col-md-2 control-label">出租类型</label>
+      <div class="col-md-7">
+        <% @rent_env.each do |rent_env| %>
+            <label class="checkbox-inline">
+              <%= check_box_tag :rent_env, '1', false%>
+              <%= h rent_env.content %>
+            </label>
+        <% end %>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputEmail3" class="col-md-2 control-label">入租人数</label>
+      <div class="col-md-4">
+        <%= select_tag :num_of_people, options_for_select(@num_of_people.collect{ |num| [num.content, num.id]}, 1), class: "form-control" %>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputEmail3" class="col-md-2 control-label">城市</label>
+      <div class="col-md-4">
+        <input type="email" class="form-control" id="inputEmail3" placeholder="上海">
+      </div>
     </div>
   </div>
+  <div class="col-md-4 starter-right">
+    <p>Help Words</p>
+  </div>
 </div>
+<div class="tab-pane" id="profile">
+  <div class="col-md-6 starter-center">
+    <div class="row">
+      <div class="col-md-2">
+        <h4>价格标准</h4>
+        <p><small>您房源的每日基础价格</small></p>
+      </div>
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="input-group">
+              <span class="input-group-addon">¥</span>
+              <input type="text" class="form-control" placeholder="价格">
+              <span class="input-group-addon">天</span>
+            </div>
+          </div>
+        </div><!--/.row -->
+        <div class="row">
+          <div class="col-md-6">
+            <hr />
+            <div class="input-group">
+              <span class="input-group-addon">¥</span>
+              <input type="text" class="form-control" placeholder="价格">
+              <span class="input-group-addon">月</span>
+            </div>
+          </div>
+        </div><!--/.row -->
+        <div class="row">
+          <div class="col-md-6">
+            <hr />
+            <div class="input-group">
+              <span class="input-group-addon">¥</span>
+              <input type="text" class="form-control" placeholder="价格">
+              <span class="input-group-addon">年</span>
+            </div>
+          </div>
+        </div>
+      </div><!--col-md-8 -->
+    </div><!--/.row -->
+  </div>
+  <div class="col-md-4 starter-right">
+    <p>Help2 Words</p>
+  </div>
+</div>
+<div class="tab-pane" id="messages">
+  <div class="col-md-6 starter-center">
+    <div class="row">
+      <div class="col-md-2">
+        <h4>描述</h4>
+        <p><small>显示在您的公开房源页面中的标题和摘要</small></p>
+      </div>
+      <div class="col-md-8">
+        <div class="form-group">
+          <label for="exampleInputEmail1"  class="col-md-2 control-label">标题</label>
+          <div class="col-md-8">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="输入标题">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1"  class="col-md-2 control-label">内容</label>
+          <div class="col-md-8">
+            <textarea class="form-control" rows="6"></textarea>
+          </div>
+        </div>
+      </div><!-- col-md-8 -->
+    </div><!-- row -->
+  </div>
+  <div class="col-md-4 starter-right">
+    <p>33</p>
+  </div>
+</div>
+<div class="tab-pane" id="settings">
+  <div class="col-md-6 starter-center">
+    <h2>添加照片</h2>
+    <div class="form-group">
+      <div class="form-group">
+        <label for="exampleInputFile">选择照片</label>
+        <input type="file" id="exampleInputFile">
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 starter-right">
+    <p>44</p>
+  </div>
+</div>
+<div class="tab-pane" id="info">
+  <div class="col-md-6 starter-center">
+    <div class="row">
+      <div class="col-md-2">
+        <h4>最常见</h4>
+        <p><small>大多数常见便利设施。</small></p>
+      </div>
+      <div class="col-md-8">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="inlineCheckbox1" value="option1">
+            无线网络
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="inlineCheckbox1" value="option1">
+            有线网络
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="inlineCheckbox1" value="option1">
+            空调
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="inlineCheckbox1" value="option1">
+            暖气
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="inlineCheckbox1" value="option1">
+            饮用水
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="inlineCheckbox1" value="option1">
+            前台接待
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="inlineCheckbox1" value="option1">
+            打印机
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="inlineCheckbox1" value="option1">
+            扫描机
+          </label>
+        </div>
+      </div><!-- col-md-8 -->
+    </div><!-- row -->
+    <hr />
+    <div class="row">
+      <div class="col-md-2">
+        <h4>额外便利设施</h4>
+        <p><small>您房源可提供的额外便利设施。</small></p>
+      </div>
+      <div class="col-md-8">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="inlineCheckbox1" value="option1">
+            地下停车位
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="inlineCheckbox1" value="option1">
+            内有电梯
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="inlineCheckbox1" value="option1">
+            咖啡机
+          </label>
+        </div>
+      </div><!-- col-md-8 -->
+    </div><!-- row -->
+    <hr />
+    <div class="row">
+      <div class="col-md-2">
+        <h4>特殊功能</h4>
+        <p><small>为有特定需求的租客提供的功能</small></p>
+      </div>
+      <div class="col-md-8">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="inlineCheckbox1" value="option1">
+            可吸烟
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="inlineCheckbox1" value="option1">
+            可携带宠物
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="inlineCheckbox1" value="option1">
+            适合举办活动
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="inlineCheckbox1" value="option1">
+            无障碍设施
+          </label>
+        </div>
+      </div><!-- col-md-8 -->
+    </div><!-- row -->
+    <hr />
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary">提交</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 starter-right">
+    <p>44</p>
+  </div>
+</div>
+</div><!--tab-content -->
+</form>
+</div><!--row -->
+</div><!--starter -->

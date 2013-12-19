@@ -11,5 +11,8 @@
 require 'spec_helper'
 
 describe NumOfPeople do
-  pending "add some examples to (or delete) #{__FILE__}"
+  before { @num = NumOfPeople.new(content: "1") }
+  subject ( @num )
+
+  it { should respond_to(:content) }
 end

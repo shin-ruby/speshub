@@ -12,6 +12,7 @@ class SpacesController < ApplicationController
     @spacesetting = SpaceSetting.all
     @user_group = UserGroup.all
     @rent_env = RentEnv.all
+    @num_of_people = NumOfPeople.all
 
   end
 end

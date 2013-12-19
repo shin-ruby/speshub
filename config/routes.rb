@@ -3,7 +3,7 @@ Speshub::Application.routes.draw do
   match '/list', to: 'spaces#index'
 
   #get "spaces/show"
-  match '/show', to: 'spaces#show'
+  match 'show', to: 'spaces#show'
 
   match '/new', to: 'spaces#new'
 
