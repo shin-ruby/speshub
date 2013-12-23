@@ -11,5 +11,8 @@
 require 'spec_helper'
 
 describe Detailed do
-  pending "add some examples to (or delete) #{__FILE__}"
+  before { @detailed = Detailed.new(content: "network" )}
+  subject { @detailed }
+
+  it { should respond_to(:content)}
 end

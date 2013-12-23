@@ -146,54 +146,12 @@
         <p><small>大多数常见便利设施。</small></p>
       </div>
       <div class="col-md-8">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="inlineCheckbox1" value="option1">
-            无线网络
+        <% @detailed_common.each do |common| %>
+          <label class="checkbox">
+            <%= check_box_tag :common, '1', false %>
+            <%= h common.content %>
           </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="inlineCheckbox1" value="option1">
-            有线网络
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="inlineCheckbox1" value="option1">
-            空调
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="inlineCheckbox1" value="option1">
-            暖气
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="inlineCheckbox1" value="option1">
-            饮用水
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="inlineCheckbox1" value="option1">
-            前台接待
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="inlineCheckbox1" value="option1">
-            打印机
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="inlineCheckbox1" value="option1">
-            扫描机
-          </label>
-        </div>
+        <% end %>
       </div><!-- col-md-8 -->
     </div><!-- row -->
     <hr />
@@ -203,24 +161,12 @@
         <p><small>您房源可提供的额外便利设施。</small></p>
       </div>
       <div class="col-md-8">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="inlineCheckbox1" value="option1">
-            地下停车位
+        <% @detailed_extra.each do |extra| %>
+          <label class="checkbox">
+            <%= check_box_tag :extra, '1', false %>
+            <%= h extra.content %>
           </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="inlineCheckbox1" value="option1">
-            内有电梯
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="inlineCheckbox1" value="option1">
-            咖啡机
-          </label>
-        </div>
+        <% end %>
       </div><!-- col-md-8 -->
     </div><!-- row -->
     <hr />
@@ -230,30 +176,12 @@
         <p><small>为有特定需求的租客提供的功能</small></p>
       </div>
       <div class="col-md-8">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="inlineCheckbox1" value="option1">
-            可吸烟
+        <% @detailed_special.each do |special| %>
+          <label class="checkbox">
+            <%= check_box_tag :special, '1', false %>
+            <%= h special.content %>
           </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="inlineCheckbox1" value="option1">
-            可携带宠物
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="inlineCheckbox1" value="option1">
-            适合举办活动
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="inlineCheckbox1" value="option1">
-            无障碍设施
-          </label>
-        </div>
+        <% end %>
       </div><!-- col-md-8 -->
     </div><!-- row -->
     <hr />
