@@ -8,7 +8,6 @@ class SpacesController < ApplicationController
   end
 
   def new
-
     @spacesetting = SpaceSetting.all
     @user_group = UserGroup.all
     @rent_env = RentEnv.all
