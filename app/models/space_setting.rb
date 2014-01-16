@@ -10,4 +10,6 @@
 
 class SpaceSetting < ActiveRecord::Base
   attr_accessible :content
+
+
 end

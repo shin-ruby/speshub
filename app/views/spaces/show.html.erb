@@ -4,8 +4,8 @@
 <div class="container">
 <div class="row">
 <div class="col-md-12">
-  <h3>GDS昆山数据中心</h3>
-  <p>互联创业-程序，前端</p>
+  <h3><%= @spaces.title %></h3>
+  <h4><%= @spaces.city %></h4>
 </div>
 <div class="col-md-8">
 
@@ -83,31 +83,29 @@
     <div class="tab-pane active" id="describe">
       <div class="row">
         <div class="col-md-8">
-          <p>无论你现实是一名创业者，还是自由职业人，甚至是在家中SOHO，联合创业办公社永远都是你最佳的选择。在这里，每一个创业工匠都能为自己的项目找到新鲜的创业灵感和丰富的自由。不同背景，不同领域的团队和个人间的资源都得到了充分的交流和利用。
-
-            自2010年冬季，联合创业办公社在华山路的蔡元培故居根据地成立后，我们相继为很多创业者提供了交流的场所。然后在一片呼声下，我们在相隔不远的昌平路（靠近延平路口），搭建了第二个创业基地，它就是［延平智阁］。如果说静安寺店走的是小资路线，延平智阁可谓走的是典雅玲珑路线。宽敞的工作区域，挑高的楼顶，搭配上别致的小阁楼，更大更明亮的空间也意味着更多的团队入驻，更频繁的业内活动在这里举办，最终称为一个更成熟的社交居所。</p>
+          <p><%= @spaces.content %></p>
         </div>
         <div class="col-md-4">
           <table class="table table-striped">
             <tr>
               <td>房源类型</td>
-              <td>创业园</td>
+              <td><%= @space_setting_show_one.content %></td>
             </tr>
             <tr>
               <td>面向群体</td>
-              <td>设计类</td>
+              <td><%= @user_group_show_one.content %></td>
             </tr>
             <tr>
               <td>入租类型</td>
-              <td>办公位</td>
+              <td><%= @rent_env_show_one.content %></td>
             </tr>
             <tr>
               <td>空间类型</td>
-              <td>办公楼</td>
+              <td>办公楼-daiding</td>
             </tr>
             <tr>
               <td>可入驻人数</td>
-              <td>8人</td>
+              <td><%= @num_of_people_show_one.content %>人</td>
             </tr>
           </table>
         </div>
