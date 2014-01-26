@@ -7,10 +7,11 @@ class SpacesController < ApplicationController
   def show
     @spaces = Space.find(params[:id])
 
-    @space_setting_show_one = SpaceSetting.find(@spaces.space_setting)
-    @user_group_show_one = UserGroup.find(@spaces.user_group)
-    @rent_env_show_one = RentEnv.find(@spaces.rent_env)
-    @num_of_people_show_one = NumOfPeople.find(@spaces.num_of_people)
+    @space_setting_show_one = @spaces.space_setting.content
+    @user_group_show_one = @spaces.user_group.content
+    @rent_env_show_one = @spaces.rent_env.content
+    @num_of_people_show_one = @spaces.num_of_people.content
+    @city_show_one = @spaces.city.content
 
   end
 
@@ -22,6 +23,5 @@ class SpacesController < ApplicationController
     @detailed_common = Detailed.where("sort = ?", :common)
     @detailed_extra = Detailed.where("sort = ?", :extra)
     @detailed_special = Detailed.where("sort = ?", :special)
-
   end
 end

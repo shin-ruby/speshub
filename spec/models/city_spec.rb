@@ -11,5 +11,9 @@
 require 'spec_helper'
 
 describe City do
-  pending "add some examples to (or delete) #{__FILE__}"
+  let(:city) { FactoryGirl.create(:city)}
+
+  subject { city }
+
+  it { should respond_to(:content)}
 end

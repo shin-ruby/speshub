@@ -11,8 +11,9 @@
 require 'spec_helper'
 
 describe UserGroup do
-  before { @user_group = UserGroup.new(content: "design")}
-  subject { @user_group }
+  let(:user_group) {FactoryGirl.create(:user_group)}
+
+  subject { user_group }
 
   it { should respond_to(:content)}
 end

@@ -11,8 +11,9 @@
 require 'spec_helper'
 
 describe SpaceSetting do
-  before { @spacesetting = SpaceSetting.new(content: "rooms")}
-  subject { @spacesetting }
+  let(:space_setting) {FactoryGirl.create(:space_setting)}
+
+  subject { space_setting }
 
   it { should respond_to(:content) }
 

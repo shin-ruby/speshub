@@ -5,7 +5,7 @@
 <div class="row">
 <div class="col-md-12">
   <h3><%= @spaces.title %></h3>
-  <h4><%= @spaces.city %></h4>
+  <h4><%= @city_show_one %></h4>
 </div>
 <div class="col-md-8">
 
@@ -89,23 +89,19 @@
           <table class="table table-striped">
             <tr>
               <td>房源类型</td>
-              <td><%= @space_setting_show_one.content %></td>
+              <td><%= @space_setting_show_one %></td>
             </tr>
             <tr>
               <td>面向群体</td>
-              <td><%= @user_group_show_one.content %></td>
+              <td><%= @user_group_show_one %></td>
             </tr>
             <tr>
-              <td>入租类型</td>
-              <td><%= @rent_env_show_one.content %></td>
-            </tr>
-            <tr>
-              <td>空间类型</td>
-              <td>办公楼-daiding</td>
+              <td>出租类型</td>
+              <td><%= @rent_env_show_one %></td>
             </tr>
             <tr>
               <td>可入驻人数</td>
-              <td><%= @num_of_people_show_one.content %>人</td>
+              <td><%= @num_of_people_show_one %>人</td>
             </tr>
           </table>
         </div>

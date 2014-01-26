@@ -11,5 +11,7 @@
 class SpaceSetting < ActiveRecord::Base
   attr_accessible :content
 
+  has_many :spaces
+
 
 end

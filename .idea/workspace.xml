@@ -11,29 +11,38 @@
     <file path="/routes.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1388627361064" ignored="false" />
     <file path="/_footer.html.erb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1386832869356" ignored="false" />
     <file path="/_header.html.erb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1386832918392" ignored="false" />
-    <file path="/space_pages_spec.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1389751620643" ignored="false" />
+    <file path="/space_pages_spec.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390719067309" ignored="false" />
     <file path="/home.html.erb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1388627858613" ignored="false" />
     <file path="/index.html.erb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1388628962222" ignored="false" />
-    <file path="/show.html.erb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1389605495418" ignored="false" />
-    <file path="/spaces_controller.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1389681429128" ignored="false" />
+    <file path="/show.html.erb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390716600377" ignored="false" />
+    <file path="/spaces_controller.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390375442266" ignored="false" />
     <file path="/space.html.erb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1386990623826" ignored="false" />
     <file path="/space_layouts.css.scss" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1386989339151" ignored="false" />
     <file path="/spaces.css.scss" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1388626826838" ignored="false" />
     <file path="$PROJECT_DIR$/config/environments/production.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1386990679383" ignored="false" />
     <file path="/_space_header.html.erb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1388639634560" ignored="false" />
     <file path="/20131214064929_add_atmosphere_to_spaces.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1387003975947" ignored="false" />
-    <file path="/space.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1388640890878" ignored="false" />
-    <file path="/space_setting_spec.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1387007391551" ignored="false" />
-    <file path="/new.html.erb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1387765214049" ignored="false" />
-    <file path="/user_group_spec.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1387180109896" ignored="false" />
-    <file path="/rent_env_spec.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1387180918390" ignored="false" />
-    <file path="/num_of_people_spec.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1387438628441" ignored="false" />
+    <file path="/space.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390375394742" ignored="false" />
+    <file path="/space_setting_spec.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390714551410" ignored="false" />
+    <file path="/new.html.erb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390717553844" ignored="false" />
+    <file path="/user_group_spec.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390715114280" ignored="false" />
+    <file path="/rent_env_spec.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390715217004" ignored="false" />
+    <file path="/num_of_people_spec.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390715294369" ignored="false" />
     <file path="/20131219082314_add_content_to_detaileds.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1387441715368" ignored="false" />
     <file path="/detailed.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1387441954437" ignored="false" />
     <file path="/detailed_spec.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1387763682065" ignored="false" />
     <file path="/20131223024640_create_spaces.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1387766977778" ignored="false" />
-    <file path="/space_spec.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1388460537706" ignored="false" />
-    <file path="/factories.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1389751478506" ignored="false" />
+    <file path="/space_spec.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390714217067" ignored="false" />
+    <file path="/factories.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390715951719" ignored="false" />
+    <file path="/20140116094819_rename_column_to_spaces.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1389865863629" ignored="false" />
+    <file path="/20140116095351_change_column_to_spaces.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1389866248181" ignored="false" />
+    <file path="/space_setting.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1389866728632" ignored="false" />
+    <file path="/20140122062901_change_user_group_to_spaces.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390372840323" ignored="false" />
+    <file path="/user_group.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390372950960" ignored="false" />
+    <file path="/20140122070321_change_city_to_spaces.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390374460015" ignored="false" />
+    <file path="/city.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390375421903" ignored="false" />
+    <file path="$PROJECT_DIR$/db/schema.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390714196686" ignored="false" />
+    <file path="/city_spec.rb" changelist="9967e8bf-b20a-4b62-b22d-8d6fec78a81f" time="1390715650012" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,46 +59,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="spaces_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/spaces_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="170" selection-end="170" vertical-scroll-proportion="0.20372836">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="space_pages_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="space_pages_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/requests/space_pages_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="43" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="factories.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/factories.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="25" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="space.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/space.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="24" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="space_setting.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/space_setting.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="6" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+            <state line="17" column="76" selection-start="562" selection-end="562" vertical-scroll-proportion="0.38482025">
               <folding />
             </state>
           </provider>
@@ -105,21 +78,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20131223024640_create_spaces.rb" />
-        <option value="$PROJECT_DIR$/spec/models/space_spec.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/spaces.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/spaces/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_space_header.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/space_setting.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/models/space.rb" />
-        <option value="$PROJECT_DIR$/app/views/spaces/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/rent_env.rb" />
+        <option value="$PROJECT_DIR$/app/models/num_of_people.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140122070321_change_city_to_spaces.rb" />
+        <option value="$PROJECT_DIR$/app/models/city.rb" />
         <option value="$PROJECT_DIR$/app/controllers/spaces_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/space.rb" />
+        <option value="$PROJECT_DIR$/spec/models/space_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/space_setting_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/user_group_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/rent_env_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/num_of_people_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/city_spec.rb" />
         <option value="$PROJECT_DIR$/spec/factories.rb" />
+        <option value="$PROJECT_DIR$/app/views/spaces/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/spaces/new.html.erb" />
         <option value="$PROJECT_DIR$/spec/requests/space_pages_spec.rb" />
       </list>
     </option>
@@ -156,8 +129,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,7 +189,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="speshub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="speshub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="speshub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="speshub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spaces" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -253,6 +268,20 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="speshub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="speshub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -260,17 +289,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -449,13 +480,6 @@
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -489,6 +513,13 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
@@ -600,11 +631,11 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="IRB console.IRB console" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="2" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Production: speshub" />
-      <item index="4" class="java.lang.String" itemvalue="Rails.Development: speshub" />
+      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: speshub" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: speshub" />
+      <item index="4" class="java.lang.String" itemvalue="IRB console.IRB console" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -647,7 +678,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3732342" sideWeight="0.9640103" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21710037" sideWeight="0.9640103" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -719,96 +750,108 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140116095351_change_column_to_spaces.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="385" selection-end="385" vertical-scroll-proportion="0.43527737" />
+        <state line="2" column="4" selection-start="70" selection-end="120" vertical-scroll-proportion="0.04663923" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/space_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/city.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1646" selection-end="1646" vertical-scroll-proportion="0.76680386" />
+        <state line="13" column="18" selection-start="293" selection-end="293" vertical-scroll-proportion="0.2942743" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spaces/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140122070321_change_city_to_spaces.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="50" selection-start="6399" selection-end="6399" vertical-scroll-proportion="0.023448275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_space_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="750" selection-end="750" vertical-scroll-proportion="0.36956522" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="17" selection-start="647" selection-end="647" vertical-scroll-proportion="0.022636484">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="333" selection-end="333" vertical-scroll-proportion="0.34019205">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spaces/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="123" selection-end="123" vertical-scroll-proportion="-0.65384614" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/scanf.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="490" column="4" selection-start="16821" selection-end="16821" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/rspec-mocks-2.11.3/lib/rspec/mocks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="153" selection-end="153" vertical-scroll-proportion="0.15845539" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131223024640_create_spaces.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="96" selection-end="96" vertical-scroll-proportion="0.06995885" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/space_setting.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="7" column="21" selection-start="165" selection-end="165" vertical-scroll-proportion="0.15845539" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/space.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+        <state line="20" column="30" selection-start="678" selection-end="678" vertical-scroll-proportion="0.4607046">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/space_pages_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/user_group_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="43" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0">
+        <state line="14" column="2" selection-start="318" selection-end="318" vertical-scroll-proportion="0.31691077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/space_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="2" selection-start="723" selection-end="765" vertical-scroll-proportion="0.43408787">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/space_setting_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="41" selection-start="358" selection-end="358" vertical-scroll-proportion="0.34979424">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/rent_env_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="20" selection-start="330" selection-end="330" vertical-scroll-proportion="0.31691077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/detailed_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/city_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="37" selection-start="86" selection-end="86" vertical-scroll-proportion="0.09054594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/num_of_people_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="27" selection-start="357" selection-end="357" vertical-scroll-proportion="0.33954728">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="4" selection-start="428" selection-end="561" vertical-scroll-proportion="0.32090545">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/spaces_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="170" selection-end="170" vertical-scroll-proportion="0.20372836">
+        <state line="13" column="27" selection-start="400" selection-end="400" vertical-scroll-proportion="0.2942743">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spaces/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="17" selection-start="3145" selection-end="3145" vertical-scroll-proportion="0.26264045">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spaces/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="79" selection-start="4724" selection-end="4724" vertical-scroll-proportion="0.7972414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/space_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="76" selection-start="562" selection-end="562" vertical-scroll-proportion="0.38482025">
           <folding />
         </state>
       </provider>

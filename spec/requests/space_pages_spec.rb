@@ -10,44 +10,18 @@ describe "SpacePages" do
   end
 
   describe "show space page" do
-    #let(:space) { FactoryGirl.create(:space) }
-    #let(:space_setting_show_one) { FactoryGirl.create(:space_setting) }
-    #before { visit space_path(space) }
+    let(:space) { FactoryGirl.create(:space) }
+    let(:space_setting) { FactoryGirl.create(:space_setting)}
+    let(:user_group) { FactoryGirl.create(:user_group)}
+    let(:rent_env) { FactoryGirl.create(:rent_env)}
+    let(:num_of_people) { FactoryGirl.create(:num_of_people)}
+    let(:city) { FactoryGirl.create(:city)}
 
-    before do
-      @space = Space.create(
-          space_setting:  "1",
-          user_group:     "1",
-          rent_env:       "1",
-          num_of_people:  "1",
-          city:           "上海",
-          price_hour:     "0",
-          price_day:      "48",
-          price_month:    "1200",
-          price_year:     "10000",
-          title:          "创智天地",
-          content:        "五角场商圈创业园区，敬请光临",
-          photo:          "wujiaochang.jpg",
-          detailed:       "1,2,3,4,6,7")
-
-      @space_setting_show_one = SpaceSetting.create(
-          content: "创意园区"
-      )
-      @user_group_show_one = UserGroup.create(
-          content: "设计类"
-      )
-      @rent_env_show_one = RentEnv.create(
-          content: "办公位"
-      )
-      @num_of_people_show_one = NumOfPeople.create(
-          content: "1"
-      )
-      visit space_path(@space)
-    end
+    before { visit space_path(space) }
 
 
-    it { should have_selector('h3', text: @space.title)}
-    it { should have_selector('h4', text: @space.city)}
+    it { should have_selector('h3', text: space.title)}
+    it { should have_selector('h4', text: city.content)}
   end
 
   describe "create space pages" do

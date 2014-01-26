@@ -11,8 +11,8 @@
 require 'spec_helper'
 
 describe RentEnv do
-  before { @rent = RentEnv.new(content: "zone") }
-  subject { @rent }
+  let(:rent_env) {FactoryGirl.create(:rent_env)}
+  subject { rent_env }
 
   it { should respond_to(:content)}
 
