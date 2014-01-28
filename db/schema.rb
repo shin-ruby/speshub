@@ -11,7 +11,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140122070321) do
+ActiveRecord::Schema.define(:version => 20140128062349) do
+
+  create_table "atmospheres", :force => true do |t|
+    t.string   "content"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "cities", :force => true do |t|
     t.string   "content"
@@ -60,6 +66,8 @@ ActiveRecord::Schema.define(:version => 20140122070321) do
     t.string   "detailed"
     t.datetime "created_at",                                                                     :null => false
     t.datetime "updated_at",                                                                     :null => false
+    t.text     "rule"
+    t.integer  "atmosphere_id"
   end
 
   create_table "user_groups", :force => true do |t|

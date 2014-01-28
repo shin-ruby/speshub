@@ -96,6 +96,10 @@
               <td><%= @user_group_show_one %></td>
             </tr>
             <tr>
+              <td>氛围</td>
+              <td><%= @atmosphere_show_one %></td>
+            </tr>
+            <tr>
               <td>出租类型</td>
               <td><%= @rent_env_show_one %></td>
             </tr>
@@ -111,62 +115,38 @@
       <div class="row">
         <div class="col-md-4">
           <ul class="list-unstyled">
-            <li><span class="glyphicon glyphicon-ok"></span>可吸烟</li>
-            <li><span class="glyphicon glyphicon-remove"></span>可携带宠物</li>
-            <li><span class="glyphicon glyphicon-ok"></span>网络</li>
+            <%= @spaces.detailed %>
+
+
+            <li><span class="glyphicon glyphicon-ok"></span>无线网络</li>
+            <li><span class="glyphicon glyphicon-remove"></span>有线网络</li>
             <li><span class="glyphicon glyphicon-ok"></span>空调</li>
-            <li><span class="glyphicon glyphicon-remove"></span>暖气</li>
-            <li><span class="glyphicon glyphicon-ok"></span>内有电梯</li>
-            <li><span class="glyphicon glyphicon-remove"></span>无障碍设施</li>
-            <li><span class="glyphicon glyphicon-ok"></span>地下停车位</li>
-            <li><span class="glyphicon glyphicon-ok"></span>咖啡机</li>
-            <li><span class="glyphicon glyphicon-ok"></span>纯净水</li>
-            <li><span class="glyphicon glyphicon-ok"></span>打印机</li>
+            <li><span class="glyphicon glyphicon-ok"></span>暖气</li>
+            <li><span class="glyphicon glyphicon-remove"></span>饮用水</li>
+            <li><span class="glyphicon glyphicon-ok"></span>前台接待</li>
+            <li><span class="glyphicon glyphicon-remove"></span>打印机</li>
             <li><span class="glyphicon glyphicon-ok"></span>扫描机</li>
-            <li><span class="glyphicon glyphicon-ok"></span>附件有地铁</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-unstyled">
+            <li><span class="glyphicon glyphicon-ok"></span>地下停车位</li>
+            <li><span class="glyphicon glyphicon-remove"></span>内有电梯</li>
+            <li><span class="glyphicon glyphicon-ok"></span>咖啡机</li>
           </ul>
         </div>
         <div class="col-md-4">
           <ul class="list-unstyled">
             <li><span class="glyphicon glyphicon-ok"></span>可吸烟</li>
             <li><span class="glyphicon glyphicon-remove"></span>可携带宠物</li>
-            <li><span class="glyphicon glyphicon-ok"></span>网络</li>
-            <li><span class="glyphicon glyphicon-ok"></span>空调</li>
-            <li><span class="glyphicon glyphicon-remove"></span>暖气</li>
-            <li><span class="glyphicon glyphicon-ok"></span>内有电梯</li>
-            <li><span class="glyphicon glyphicon-remove"></span>无障碍设施</li>
-            <li><span class="glyphicon glyphicon-ok"></span>地下停车位</li>
-            <li><span class="glyphicon glyphicon-ok"></span>咖啡机</li>
-            <li><span class="glyphicon glyphicon-ok"></span>纯净水</li>
-            <li><span class="glyphicon glyphicon-ok"></span>打印机</li>
-            <li><span class="glyphicon glyphicon-ok"></span>扫描机</li>
-            <li><span class="glyphicon glyphicon-ok"></span>附件有地铁</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-unstyled">
-            <li><span class="glyphicon glyphicon-ok"></span>可吸烟</li>
-            <li><span class="glyphicon glyphicon-remove"></span>可携带宠物</li>
-            <li><span class="glyphicon glyphicon-ok"></span>网络</li>
-            <li><span class="glyphicon glyphicon-ok"></span>空调</li>
-            <li><span class="glyphicon glyphicon-remove"></span>暖气</li>
-            <li><span class="glyphicon glyphicon-ok"></span>内有电梯</li>
-            <li><span class="glyphicon glyphicon-remove"></span>无障碍设施</li>
-            <li><span class="glyphicon glyphicon-ok"></span>地下停车位</li>
-            <li><span class="glyphicon glyphicon-ok"></span>咖啡机</li>
-            <li><span class="glyphicon glyphicon-ok"></span>纯净水</li>
-            <li><span class="glyphicon glyphicon-ok"></span>打印机</li>
-            <li><span class="glyphicon glyphicon-ok"></span>扫描机</li>
-            <li><span class="glyphicon glyphicon-ok"></span>附件有地铁</li>
+            <li><span class="glyphicon glyphicon-ok"></span>适合举办活动</li>
+            <li><span class="glyphicon glyphicon-ok"></span>无障碍设施</li>
           </ul>
         </div>
       </div> <!-- row -->
     </div> <!-- tab-pane -->
     <div class="tab-pane" id="rules">
-      <p>Access to property and apartment only for guests that booked and paid.
-        Important: A copy of the guests passport need to be provided via email (pdf or jpg) before arrival! Strictly no smoking inside the apartment.
-        General rules of good manners:
-        Please keep the common spaces clean, respect late night hours, turn off AC and other electronic devices when leaving the house, especially AC as it otherwise blows the calculated average utility costs that we estimated to fairly price the apartment. Last but not least, please leave the apartment as you found it at your arrival.</p>
+      <p><%= @spaces.rule %></p>
     </div>
   </div><!-- tab-content -->
 </div><!--bs-example bs-example-tabs -->

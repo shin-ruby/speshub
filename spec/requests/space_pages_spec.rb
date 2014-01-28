@@ -16,6 +16,7 @@ describe "SpacePages" do
     let(:rent_env) { FactoryGirl.create(:rent_env)}
     let(:num_of_people) { FactoryGirl.create(:num_of_people)}
     let(:city) { FactoryGirl.create(:city)}
+    let(:atmosphere) { FactoryGirl.create(:atmosphere)}
 
     before { visit space_path(space) }
 

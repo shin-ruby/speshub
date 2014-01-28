@@ -12,6 +12,7 @@ class SpacesController < ApplicationController
     @rent_env_show_one = @spaces.rent_env.content
     @num_of_people_show_one = @spaces.num_of_people.content
     @city_show_one = @spaces.city.content
+    @atmosphere_show_one = @spaces.atmosphere.content
 
   end
 
@@ -20,6 +21,7 @@ class SpacesController < ApplicationController
     @user_group = UserGroup.all
     @rent_env = RentEnv.all
     @num_of_people = NumOfPeople.all
+    @atmosphere = Atmosphere.all
     @detailed_common = Detailed.where("sort = ?", :common)
     @detailed_extra = Detailed.where("sort = ?", :extra)
     @detailed_special = Detailed.where("sort = ?", :special)

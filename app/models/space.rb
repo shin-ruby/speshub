@@ -18,12 +18,16 @@
 #  detailed         :string(255)
 #  created_at       :datetime         not null
 #  updated_at       :datetime         not null
+#  rule             :text
+#  atmosphere_id    :integer
 #
 
 class Space < ActiveRecord::Base
-  attr_accessible :city_id, :content, :detailed, :num_of_people_id, :photo, :price_day, :price_hour, :price_month, :price_year, :rent_env_id, :space_setting_id, :title, :user_group_id
+  attr_accessible :city_id, :content, :detailed, :num_of_people_id, :photo, :price_day, :price_hour, :atmosphere_id,
+                  :price_month, :price_year, :rent_env_id, :space_setting_id, :title, :user_group_id, :rule
 
-  validates :space_setting_id, :user_group_id, :rent_env_id, :num_of_people_id, :city_id, :price_day, :price_month, :title, :content, presence: true
+  validates :space_setting_id, :user_group_id, :rent_env_id, :num_of_people_id, :city_id, :atmosphere_id,
+            :price_day, :price_month, :title, :content, presence: true
   validates :title, length: {maximum: 30 }
 
   belongs_to :space_setting
@@ -31,6 +35,7 @@ class Space < ActiveRecord::Base
   belongs_to :rent_env
   belongs_to :num_of_people
   belongs_to :city
+  belongs_to :atmosphere
 
 
 

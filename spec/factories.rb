@@ -5,6 +5,7 @@ FactoryGirl.define do
     rent_env_id        1
     num_of_people_id   1
     city_id            1
+    atmosphere_id      1
     price_hour        "0"
     price_day         "48"
     price_month       "1200"
@@ -12,13 +13,15 @@ FactoryGirl.define do
     title             "创智天地"
     content           "五角场商圈创业园区，敬请光临"
     photo             "wujiaochang.jpg"
-    detailed          "1,2,3,4,6,7"
+    detailed          "1,0,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    rule              "守则"
 
     association :space_setting
     association :user_group
     association :rent_env
     association :num_of_people
     association :city
+    association :atmosphere
   end
 
   factory :space_setting do
@@ -39,6 +42,10 @@ FactoryGirl.define do
 
   factory :city do
     content "上海"
+  end
+
+  factory :atmosphere do
+    content "安静的"
   end
 
 end
