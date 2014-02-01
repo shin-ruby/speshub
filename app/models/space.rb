@@ -30,6 +30,9 @@ class Space < ActiveRecord::Base
             :price_day, :price_month, :title, :content, presence: true
   validates :title, length: {maximum: 30 }
 
+  has_attached_file :photo, :styles => { :medium => "300x300>", :thumb => "100x100>" }, :default_url => "/images/:style/missing.png"
+  validates_attachment_content_type :photo, :content_type => /\Aimage\/.*\Z/
+
   belongs_to :space_setting
   belongs_to :user_group
   belongs_to :rent_env

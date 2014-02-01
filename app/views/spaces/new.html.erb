@@ -9,49 +9,55 @@
     <li><a href="#info" data-toggle="tab"><span class="glyphicon glyphicon-list-alt"></span>详细信息</a></li>
   </ul>
 </div>
-<form class="form-horizontal" role="form">
+<%= form_for @space, :url => spaces_path, html: { :multipart => true, class: "form-horizontal", role: "form" }  do |f| %>
 <div class="tab-content">
 <div class="tab-pane active" id="home">
   <div class="col-md-6 starter-center">
     <div class="form-group">
-      <label for="inputEmail3" class="col-md-2 control-label">房源类型</label>
+      <%#= f.label :space_setting_id, html:{ class: "col-md-2 control-label" } %>
+      <%= f.label :space_setting, class: "col-md-2 control-label" %>
       <div class="col-md-7">
-        <%= select_tag :spacesetting, options_for_select(@spacesetting.collect{ |s| [s.content, s.id] }, 1), class: "form-control" %>
+        <%= f.select :space_setting_id, options_for_select(@space_setting.collect{ |s| [s.content, s.id] }, 1),
+                     options = {}, class: "form-control" %>
       </div>
     </div>
     <div class="form-group">
-      <label for="inputEmail3" class="col-md-2 control-label">面向群体</label>
+      <%= f.label :user_group, class: "col-md-2 control-label" %>
       <div class="col-md-7">
-        <%= select_tag :user_group, options_for_select(@user_group.collect{ |group| [group.content, group.id]}, 1), class: "form-control" %>
+        <%= f.select :user_group_id, options_for_select(@user_group.collect{ |group| [group.content, group.id]}, 1),
+                     options = {}, class: "form-control" %>
       </div>
     </div>
     <div class="form-group">
-      <label for="inputEmail3" class="col-md-2 control-label">氛围</label>
+      <%= f.label :Atmosphere, class: "col-md-2 control-label" %>
       <div class="col-md-7">
-        <%= select_tag :atmosphere, options_for_select(@atmosphere.collect{ |at| [at.content, at.id]}, 1), class: "form-control" %>
+        <%= f.select :atmosphere, options_for_select(@atmosphere.collect{ |at| [at.content, at.id]}, 1),
+                     options = {}, class: "form-control" %>
       </div>
     </div>
     <div class="form-group">
-      <label for="inputEmail3" class="col-md-2 control-label">出租类型</label>
+      <%= f.label :出租类型, class: "col-md-2 control-label" %>
       <div class="col-md-7">
         <% @rent_env.each do |rent_env| %>
             <label class="checkbox-inline">
-              <%= check_box_tag :rent_env, '1', false%>
+              <%= f.check_box :rent_env, {}, '1', false %>
               <%= h rent_env.content %>
             </label>
         <% end %>
       </div>
     </div>
     <div class="form-group">
-      <label for="inputEmail3" class="col-md-2 control-label">入租人数</label>
+      <%= f.label :入租人数, class: "col-md-2 control-label" %>
       <div class="col-md-4">
-        <%= select_tag :num_of_people, options_for_select(@num_of_people.collect{ |num| [num.content, num.id]}, 1), class: "form-control" %>
+        <%= f.select :num_of_people, options_for_select(@num_of_people.collect{ |num| [num.content, num.id]}, 1),
+                    options = {},  class: "form-control" %>
       </div>
     </div>
     <div class="form-group">
-      <label for="inputEmail3" class="col-md-2 control-label">城市</label>
+      <%= f.label :City, class: "col-md-2 control-label" %>
       <div class="col-md-4">
-        <input type="email" class="form-control" id="inputEmail3" placeholder="上海">
+        <%= f.select :city, options_for_select(@city.collect{ |c| [c.content, c.id]}, 1),
+                     options ={}, class: "form-control" %>
       </div>
     </div>
   </div>
@@ -71,7 +77,17 @@
           <div class="col-md-6">
             <div class="input-group">
               <span class="input-group-addon">¥</span>
-              <input type="text" class="form-control" placeholder="价格">
+              <%= f.text_field :price_hour, class: "form-control", placeholder: "价格" %>
+              <span class="input-group-addon">时</span>
+            </div>
+          </div>
+        </div><!--/.row -->
+        <div class="row">
+          <div class="col-md-6">
+            <hr />
+            <div class="input-group">
+              <span class="input-group-addon">¥</span>
+              <%= f.text_field :price_day, class: "form-control", placeholder: "价格" %>
               <span class="input-group-addon">天</span>
             </div>
           </div>
@@ -81,7 +97,7 @@
             <hr />
             <div class="input-group">
               <span class="input-group-addon">¥</span>
-              <input type="text" class="form-control" placeholder="价格">
+              <%= f.text_field :price_month, class: "form-control",placeholder: "价格" %>
               <span class="input-group-addon">月</span>
             </div>
           </div>
@@ -91,7 +107,7 @@
             <hr />
             <div class="input-group">
               <span class="input-group-addon">¥</span>
-              <input type="text" class="form-control" placeholder="价格">
+              <%= f.text_field :price_year, class: "form-control", placeholder: "价格" %>
               <span class="input-group-addon">年</span>
             </div>
           </div>
@@ -112,22 +128,22 @@
       </div>
       <div class="col-md-8">
         <div class="form-group">
-          <label for="exampleInputEmail1"  class="col-md-2 control-label">标题</label>
+          <%= f.label :title, class: "col-md-2 control-label" %>
           <div class="col-md-8">
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="输入标题">
+            <%= f.text_field :title, class: "form-control", id: "exampleInputEmail1", placeholder: "输入标题" %>
           </div>
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1"  class="col-md-2 control-label">内容</label>
+          <%= f.label :content, class: "col-md-2 control-label" %>
           <div class="col-md-8">
-            <textarea class="form-control" rows="6"></textarea>
+            <%= f.text_area :content , rows: 6, class: "form-control" %>
           </div>
         </div>
         <hr />
         <div class="form-group">
-          <label for="exampleInputPassword1"  class="col-md-2 control-label">守则</label>
+          <%= f.label :rule, class: "col-md-2 control-label" %>
           <div class="col-md-8">
-            <textarea class="form-control" rows="6"></textarea>
+            <%= f.text_area :rule, rows: 6, class: "form-control" %>
           </div>
         </div>
       </div><!-- col-md-8 -->
@@ -142,8 +158,7 @@
     <h2>添加照片</h2>
     <div class="form-group">
       <div class="form-group">
-        <label for="exampleInputFile">选择照片</label>
-        <input type="file" id="exampleInputFile">
+        <%= f.file_field :photo, id: "exampleInputFile" %>
       </div>
     </div>
   </div>
@@ -159,10 +174,10 @@
         <p><small>大多数常见便利设施。</small></p>
       </div>
       <div class="col-md-8">
-        <% @detailed_common.each do |common| %>
+        <% @detailed_common.each do |detailed| %>
           <label class="checkbox">
-            <%= check_box_tag :common, '1', false %>
-            <%= h common.content %>
+            <%= f.check_box :detailed %>
+            <%= h detailed.content %>
           </label>
         <% end %>
       </div><!-- col-md-8 -->
@@ -174,10 +189,10 @@
         <p><small>您房源可提供的额外便利设施。</small></p>
       </div>
       <div class="col-md-8">
-        <% @detailed_extra.each do |extra| %>
+        <% @detailed_extra.each do |detailed| %>
           <label class="checkbox">
-            <%= check_box_tag :extra, '1', false %>
-            <%= h extra.content %>
+            <%= f.check_box :detailed %>
+            <%= h detailed.content %>
           </label>
         <% end %>
       </div><!-- col-md-8 -->
@@ -189,10 +204,10 @@
         <p><small>为有特定需求的租客提供的功能</small></p>
       </div>
       <div class="col-md-8">
-        <% @detailed_special.each do |special| %>
+        <% @detailed_special.each do |detailed| %>
           <label class="checkbox">
-            <%= check_box_tag :special, '1', false %>
-            <%= h special.content %>
+            <%= f.check_box :detailed %>
+            <%= h detailed.content %>
           </label>
         <% end %>
       </div><!-- col-md-8 -->
@@ -201,7 +216,7 @@
 
     <div class="form-group">
       <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-primary">提交</button>
+        <button type="submit" class="btn btn-primary">Create new space</button>
       </div>
     </div>
   </div>
@@ -210,6 +225,6 @@
   </div>
 </div>
 </div><!--tab-content -->
-</form>
+<% end %>
 </div><!--row -->
 </div><!--starter -->

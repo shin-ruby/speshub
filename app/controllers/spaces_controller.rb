@@ -17,13 +17,22 @@ class SpacesController < ApplicationController
   end
 
   def new
-    @spacesetting = SpaceSetting.all
+    @space_setting = SpaceSetting.all
     @user_group = UserGroup.all
     @rent_env = RentEnv.all
     @num_of_people = NumOfPeople.all
     @atmosphere = Atmosphere.all
+    @city = City.all
     @detailed_common = Detailed.where("sort = ?", :common)
     @detailed_extra = Detailed.where("sort = ?", :extra)
     @detailed_special = Detailed.where("sort = ?", :special)
+
+    @space = Space.new
   end
+
+  def create
+
+  end
+
+
 end
